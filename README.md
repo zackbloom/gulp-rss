@@ -1,21 +1,14 @@
-[![Build Status](https://travis-ci.org/lmtm/gulp-rss.png?branch=master)](https://travis-ci.org/lmtm/gulp-rss)
-[![Dependency Status](https://david-dm.org/lmtm/gulp-rss.png)](https://david-dm.org/lmtm/gulp-rss)
+[![Build Status](https://travis-ci.org/mrajo/gulp-rss.png?branch=master)](https://travis-ci.org/mrajo/gulp-rss)
+[![Dependency Status](https://david-dm.org/mrajo/gulp-rss.png)](https://david-dm.org/mrajo/gulp-rss)
 
-## Information
+# gulp-rss
 
-<table>
-<tr>
-<td>Package</td><td>gulp-rss</td>
-</tr>
-<tr>
-<td>Description</td>
-<td>Generates an RSS file from files with metadata (typically extracted using `gulp-front-matter`)</td>
-</tr>
-<tr>
-<td>Node Version</td>
-<td>≥ 0.7</td>
-</tr>
-</table>
+> Generate RSS file with gulp
+
+This plugin generates an RSS file from files with metadata, such as front matter
+extracted from `gulp-front-matter`.
+
+Requires Node version ≥ 0.12
 
 ## Usage
 
