@@ -1,10 +1,10 @@
 "use strict";
 
-var es = require('event-stream'),
-  _ = require('lodash'),
-  util = require('gulp-util'),
-  path = require('path'),
-  Feed = require('feed');
+var es = require('event-stream');
+var _ = require('lodash');
+var util = require('gulp-util');
+var path = require('path');
+var Feed = require('feed');
 
 module.exports = function rss(options) {
   // Default options

@@ -1,7 +1,0 @@
-{
-  "jslint.options": {
-    "node": true,
-    "nomen": true
-  },
-  "spaceUnits": 2
-}
