@@ -35,12 +35,14 @@ gulp.task('rss', function() {
         },
 
         // Feed configuration
-        render:       'atom-1.0',                     // Feed type (atom-1.0 or rss-2.0)
-        title:        'My blog',                      // Feed title (mandatory)
-        description:  'My very own blog',             // Feed description (optional)
-        link:         'http://my.bl.og',              // Feed link (optional)
-        author:       { name: 'Nicolas Chambrier' },  // Blog's author (optional)
-        // etc…
+        feedOptions: {
+          render:       'atom-1.0',                     // Feed type (atom-1.0 or rss-2.0)
+          title:        'My blog',                      // Feed title (mandatory)
+          description:  'My very own blog',             // Feed description (optional)
+          link:         'http://my.bl.og',              // Feed link (optional)
+          author:       { name: 'Nicolas Chambrier' },  // Blog's author (optional)
+          // etc…
+        }
       }
 
     ))
